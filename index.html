@@ -13,102 +13,118 @@
         <div>
             Input parameters here.
             <br>
-            Any of the links on this page will append with the textfield parameters
+            Any of the links on this page will append with the "PARAMETERS" textfield parameters
+            <br/>
+            Put in the URL Scheme that you are wanting to use for your application in the "SCHEME" textfield
             <br>
             You do not have to include the ? as it is already included in the link.
             <br>
-            Example input test=123 on "home" link.
+            Example input for "PARAMETERS" test=123 on "home" link.
             <br>
-            Resultant link will be compass://home?test=123<br>
-            <input type="text" id="suffix" style="width:400px;float:left;clear:left;"/>
+            Example input for "SCHEME" vndemo on "home" link.
+            <br/>
+            Resultant link will be vndemo://home?test=123
+            <br>
+            <br/>
+            PARAMETERS
+            <br/>
+            <input type="text" id="suffix" style="width:400px;float:left;"/>
+            <br>
+            <br/>
+            SCHEME
+            <br/>
+            <input type="text" id="prefix" style="width:400px;float:left;clear:left;"/>
             <br>
             <br>
-            <a href="compass://home?" onclick="appendLink(); return false;">home</a><br>
+            <a href="" id="home?" onclick="appendLink(); return false;">home</a><br>
             <br>
-            <a href="compass://game?" onclick="appendLink(); return false;">game</a><br>
-            <a href="compass://game_playbyplay?" onclick="appendLink(); return false;">game_playbyplay</a><br>
-            <a href="compass://game_stats?" onclick="appendLink(); return false;">game_stats</a><br>
-            <a href="compass://game_roster?" onclick="appendLink(); return false;">game_roster</a><br>
-            <a href="compass://game_updates?" onclick="appendLink(); return false;">game_updates</a><br>
-            <a href="compass://around_nfl?" onclick="appendLink(); return false;">around_nfl</a><br>
+            <a href="" id="game?" onclick="appendLink(); return false;">game</a><br>
+            <a href="" id="game_playbyplay?" onclick="appendLink(); return false;">game_playbyplay</a><br>
+            <a href="" id="game_stats?" onclick="appendLink(); return false;">game_stats</a><br>
+            <a href="" id="game_roster?" onclick="appendLink(); return false;">game_roster</a><br>
+            <a href="" id="game_updates?" onclick="appendLink(); return false;">game_updates</a><br>
+            <a href="" id="around_nfl?" onclick="appendLink(); return false;">around_nfl</a><br>
             <br>
-            <a href="compass://team?" onclick="appendLink(); return false;">team</a><br>
-            <a href="compass://schedule?" onclick="appendLink(); return false;">schedule</a><br>
+            <a href="" id="team?" onclick="appendLink(); return false;">team</a><br>
+            <a href="" id="schedule?" onclick="appendLink(); return false;">schedule</a><br>
             <br>
-            <a href="compass://food_and_drink?" onclick="appendLink(); return false;">food_and_drink</a><br>
-            <a href="compass://food_and_drink_pickup?" onclick="appendLink(); return false;">food_and_drink_pickup</a><br>
-            <a href="compass://food_and_drink_delivery?" onclick="appendLink(); return false;">food_and_drink_delivery</a><br>
-            <a href="compass://merchandise?" onclick="appendLink(); return false;">merchandise</a><br>
-            <a href="compass://home?" onclick="appendLink(); return false;">merchandise_pickup</a><br>
-            <a href="compass://home?" onclick="appendLink(); return false;">merchandise_delivery</a><br>
+            <a href="" id="food_and_drink?" onclick="appendLink(); return false;">food_and_drink</a><br>
+            <a href="" id="food_and_drink_pickup?" onclick="appendLink(); return false;">food_and_drink_pickup</a><br>
+            <a href="" id="food_and_drink_delivery?" onclick="appendLink(); return false;">food_and_drink_delivery</a><br>
+            <a href="" id="merchandise?" onclick="appendLink(); return false;">merchandise</a><br>
+            <a href="" id="merchandise_pickup?" onclick="appendLink(); return false;">merchandise_pickup</a><br>
+            <a href="" id="merchandise_delivery?" onclick="appendLink(); return false;">merchandise_delivery</a><br>
             <br>
-            <a href="compass://stadium_vendors?" onclick="appendLink(); return false;">stadium_vendors</a><br>
-            <a href="compass://stadium_orders?" onclick="appendLink(); return false;">stadium_orders</a><br>
-            <a href="compass://stadium_order?" onclick="appendLink(); return false;">stadium_order</a><br>
-            <a href="compass://stand_menu?" onclick="appendLink(); return false;">stand_menu</a><br>
+            <a href="" id="stadium_vendors?" onclick="appendLink(); return false;">stadium_vendors</a><br>
+            <a href="" id="stadium_orders?" onclick="appendLink(); return false;">stadium_orders</a><br>
+            <a href="" id="stadium_order?" onclick="appendLink(); return false;">stadium_order</a><br>
+            <a href="" id="stand_menu?" onclick="appendLink(); return false;">stand_menu</a><br>
             <br>
-            <a href="compass://parking?" onclick="appendLink(); return false;">parking</a><br>
-            <a href="compass://tickets?" onclick="appendLink(); return false;">tickets</a><br>
-            <a href="compass://tickets_signin?" onclick="appendLink(); return false;">tickets_signin</a><br>
-            <a href="compass://tickets_signout?" onclick="appendLink(); return false;">tickets_signout</a><br>
-            <a href="compass://tickets_password_reset?" onclick="appendLink(); return false;">tickets_password_reset</a><br>
-            <a href="compass://tickets_refresh?" onclick="appendLink(); return false;">tickets_refresh</a><br>
-            <a href="compass://tickets_scan?" onclick="appendLink(); return false;">tickets_scan</a><br>
-            <a href="compass://tickets_list?" onclick="appendLink(); return false;">tickets_list</a><br>
-            <a href="compass://tickets_purchase?" onclick="appendLink(); return false;">tickets_purchase</a><br>
-            <a href="compass://ticket?" onclick="appendLink(); return false;">ticket</a><br>
+            <a href="" id="parking?" onclick="appendLink(); return false;">parking</a><br>
+            <a href="" id="tickets?" onclick="appendLink(); return false;">tickets</a><br>
+            <a href="" id="tickets_signin?" onclick="appendLink(); return false;">tickets_signin</a><br>
+            <a href="" id="tickets_signout?" onclick="appendLink(); return false;">tickets_signout</a><br>
+            <a href="" id="tickets_password_reset?" onclick="appendLink(); return false;">tickets_password_reset</a><br>
+            <a href="" id="tickets_refresh?" onclick="appendLink(); return false;">tickets_refresh</a><br>
+            <a href="" id="tickets_scan?" onclick="appendLink(); return false;">tickets_scan</a><br>
+            <a href="" id="tickets_list?" onclick="appendLink(); return false;">tickets_list</a><br>
+            <a href="" id="tickets_purchase?" onclick="appendLink(); return false;">tickets_purchase</a><br>
+            <a href="" id="ticket?" onclick="appendLink(); return false;">ticket</a><br>
             <br>
-            <a href="compass://explore?" onclick="appendLink(); return false;">explore</a><br>
-            <a href="compass://explore_top_picks?" onclick="appendLink(); return false;">explore_top_picks</a><br>
-            <a href="compass://explore_stadium_maps?" onclick="appendLink(); return false;">explore_stadium_maps</a><br>
-            <a href="compass://explore_poi?" onclick="appendLink(); return false;">explore_poi</a><br>
-            <a href="compass://explore_user?" onclick="appendLink(); return false;">explore_user</a><br>
-            <a href="compass://explore_parking_lots?" onclick="appendLink(); return false;">explore_parking_lots</a><br>
-            <a href="compass://explore_parking_lot?" onclick="appendLink(); return false;">explore_parking_lot</a><br>
-            <a href="compass://explore_navigation?" onclick="appendLink(); return false;">explore_navigation</a><br>
-            <a href="compass://explore_map?" onclick="appendLink(); return false;">explore_map</a><br>
-            <a href="compass://explore_around_me?" onclick="appendLink(); return false;">explore_around_me</a><br>
-            <a href="compass://navigation_seat?" onclick="appendLink(); return false;">navigation_seat</a><br>
+            <a href="" id="explore?" onclick="appendLink(); return false;">explore</a><br>
+            <a href="" id="explore_top_picks?" onclick="appendLink(); return false;">explore_top_picks</a><br>
+            <a href="" id="explore_stadium_maps?" onclick="appendLink(); return false;">explore_stadium_maps</a><br>
+            <a href="" id="explore_poi?" onclick="appendLink(); return false;">explore_poi</a><br>
+            <a href="" id="explore_user?" onclick="appendLink(); return false;">explore_user</a><br>
+            <a href="" id="explore_parking_lots?" onclick="appendLink(); return false;">explore_parking_lots</a><br>
+            <a href="" id="explore_parking_lot?" onclick="appendLink(); return false;">explore_parking_lot</a><br>
+            <a href="" id="explore_navigation?" onclick="appendLink(); return false;">explore_navigation</a><br>
+            <a href="" id="explore_map?" onclick="appendLink(); return false;">explore_map</a><br>
+            <a href="" id="explore_around_me?" onclick="appendLink(); return false;">explore_around_me</a><br>
+            <a href="" id="navigation_seat?" onclick="appendLink(); return false;">navigation_seat</a><br>
             <br>
-            <a href="compass://profile?" onclick="appendLink(); return false;">profile</a><br>
-            <a href="compass://profile_picture?" onclick="appendLink(); return false;">profile_picture</a><br>
-            <a href="compass://profile_info?" onclick="appendLink(); return false;">profile_info</a><br>
-            <a href="compass://profile_orders?" onclick="appendLink(); return false;">profile_orders</a><br>
-            <a href="compass://profile_accounts?" onclick="appendLink(); return false;">profile_accounts</a><br>
-            <a href="compass://profile_credit_card?" onclick="appendLink(); return false;">profile_credit_card</a><br>
-            <a href="compass://profile_seat?" onclick="appendLink(); return false;">profile_seat</a><br>
+            <a href="" id="profile?" onclick="appendLink(); return false;">profile</a><br>
+            <a href="" id="profile_picture?" onclick="appendLink(); return false;">profile_picture</a><br>
+            <a href="" id="profile_info?" onclick="appendLink(); return false;">profile_info</a><br>
+            <a href="" id="profile_orders?" onclick="appendLink(); return false;">profile_orders</a><br>
+            <a href="" id="profile_accounts?" onclick="appendLink(); return false;">profile_accounts</a><br>
+            <a href="" id="profile_credit_card?" onclick="appendLink(); return false;">profile_credit_card</a><br>
+            <a href="" id="profile_seat?" onclick="appendLink(); return false;">profile_seat</a><br>
             <br>
-            <a href="compass://loyalty?" onclick="appendLink(); return false;">loyalty</a><br>
-            <a href="compass://guest_services?" onclick="appendLink(); return false;">guest_services</a><br>
-            <a href="compass://navigation?" onclick="appendLink(); return false;">navigation</a><br>
+            <a href="" id="loyalty?" onclick="appendLink(); return false;">loyalty</a><br>
+            <a href="" id="guest_services?" onclick="appendLink(); return false;">guest_services</a><br>
+            <a href="" id="navigation?" onclick="appendLink(); return false;">navigation</a><br>
             <br>
-            <a href="compass://show_cards?" onclick="appendLink(); return false;">show_cards</a><br>
-            <a href="compass://close_cards?" onclick="appendLink(); return false;">close_cards</a><br>
-            <a href="compass://web_panel?" onclick="appendLink(); return false;">web_panel</a><br>
-            <a href="compass://widgets_panel?" onclick="appendLink(); return false;">widgets_panel</a><br>
-            <a href="compass://react_panel?" onclick="appendLink(); return false;">react_panel</a><br>
+            <a href="" id="show_cards?" onclick="appendLink(); return false;">show_cards</a><br>
+            <a href="" id="close_cards?" onclick="appendLink(); return false;">close_cards</a><br>
+            <a href="" id="web_panel?" onclick="appendLink(); return false;">web_panel</a><br>
+            <a href="" id="widgets_panel?" onclick="appendLink(); return false;">widgets_panel</a><br>
+            <a href="" id="react_panel?" onclick="appendLink(); return false;">react_panel</a><br>
             <br>
-            <a href="compass://track_me?" onclick="appendLink(); return false;">track_me</a><br>
-            <a href="compass://bluetooth?" onclick="appendLink(); return false;">bluetooth</a><br>
-            <a href="compass://location_services?" onclick="appendLink(); return false;">location_services</a><br>
+            <a href="" id="track_me?" onclick="appendLink(); return false;">track_me</a><br>
+            <a href="" id="bluetooth?" onclick="appendLink(); return false;">bluetooth</a><br>
+            <a href="" id="location_services?" onclick="appendLink(); return false;">location_services</a><br>
             <br>
-            <a href="compass://play_video?" onclick="appendLink(); return false;">play_video</a><br>
-            <a href="compass://play_audio?" onclick="appendLink(); return false;">play_audio</a><br>
-            <a href="compass://dial_phone?" onclick="appendLink(); return false;">dial_phone</a><br>
-            <a href="compass://send_text?" onclick="appendLink(); return false;">send_text</a><br>
-            <a href="compass://send_email?" onclick="appendLink(); return false;">send_email</a><br>
-            <a href="compass://browser?" onclick="appendLink(); return false;">browser</a><br>
-            <a href="compass://launchapp?" onclick="appendLink(); return false;">launchapp</a><br>
-            <a href="compass://sign_out?" onclick="appendLink(); return false;">sign_out</a><br>
+            <a href="" id="play_video?" onclick="appendLink(); return false;">play_video</a><br>
+            <a href="" id="play_audio?" onclick="appendLink(); return false;">play_audio</a><br>
+            <a href="" id="dial_phone?" onclick="appendLink(); return false;">dial_phone</a><br>
+            <a href="" id="send_text?" onclick="appendLink(); return false;">send_text</a><br>
+            <a href="" id="send_email?" onclick="appendLink(); return false;">send_email</a><br>
+            <a href="" id="browser?" onclick="appendLink(); return false;">browser</a><br>
+            <a href="" id="launchapp?" onclick="appendLink(); return false;">launchapp</a><br>
+            <a href="" id="sign_out?" onclick="appendLink(); return false;">sign_out</a><br>
             <br>
-            <a href="compass://experience?" onclick="appendLink(); return false;">experience</a><br>
+            <a href="" id="experience?" onclick="appendLink(); return false;">experience</a><br>
             <br>
-            <a href="compass://report_problem?" onclick="appendLink(); return false;">report_problem</a><br>
+            <a href="" id="report_problem?" onclick="appendLink(); return false;">report_problem</a><br>
         </div>
         <script>
             function appendLink() {
                 $(document).click(function(event) {
-                    document.location.href = $(event.target).attr('href')+$('#suffix').val()
+                    if ($(event.target).prop('tagName') == 'A') {
+                        $(event.target).attr('href', $('#prefix').val()+"://"+$(event.target).attr('id')+$('#suffix').val());
+                        window.open($(event.target).attr('href'), '_blank');
+                    }
                 });          
             }
         </script>
